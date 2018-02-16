@@ -7,6 +7,6 @@
 ##### -Tarih / Saat Seçimi (İleri ki bir tarihe sipariş verebilme.)
 ####
 ### Metin SARITAŞ,
-Emre UZUN,
-Furkan ÇUKUR, 
-Emre AY
+### Emre UZUN,
+### Furkan ÇUKUR, 
+### Emre AY

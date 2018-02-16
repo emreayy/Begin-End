@@ -6,7 +6,4 @@
 ##### -Rota detay ekranı.(Siparişiniz Hazırlanıyor, Yolda, Geldi.)
 ##### -Tarih / Saat Seçimi (İleri ki bir tarihe sipariş verebilme.)
 ####
-### Metin SARITAŞ,
-### Emre UZUN,
-### Furkan ÇUKUR, 
-### Emre AY
+### Metin SARITAŞ, Emre UZUN, Furkan ÇUKUR, Emre AY

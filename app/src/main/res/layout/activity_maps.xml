@@ -1,10 +1,44 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:map="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:weightSum="2"
-    android:orientation="vertical">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:map="http://schemas.android.com/apk/res-auto"
+         xmlns:tools="http://schemas.android.com/tools"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:weightSum="2"
+         android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_marginTop="-11dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/topbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="44dp"
+                    android:hint="   Ürün Ara" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_height="63dp"
+                    android:layout_marginLeft="300dp"
+                    android:text="Ara"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:map="http://schemas.android.com/apk/res-auto"
@@ -13,7 +47,101 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_weight="1"
-        android:layout_height="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="110dp"
         tools:context="org.getir.getirhackathon.MapsActivity" />
 
-</LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:layout_marginEnd="12dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="350dp"
+                >
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Cikolata"/>
+
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/cikolata"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="350dp"
+                android:layout_marginLeft="10dp"
+                >
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Börek"/>
+
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/borek"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="3"
+                android:text="Sipariş" />
+
+            <RelativeLayout
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="350dp"
+                >
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Salata"/>
+
+                <ImageView
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/salata"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp" />
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
